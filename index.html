@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diver</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav>   
+        <div class="title color-w">DIVER</div>
+        <div class="menu color-w">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Blog</div>
+            <div class="item">Contact</div>
+        </div>
+        <div id="mobile-menu"class="mobile-menu">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Blog</div>
+            <div class="item">Contact</div>
+            <div onclick="closeMobileMenu();" class="close">X</div>
+        </div>
+        <div onclick="showMobileMenu();" class="mobile-menu-trigger">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="memo color-w">
+            STYLE IS A <br/>CHOICE <br/>MAKE YOURS
+        </div>
+    </nav>
+    <section class="gallery">   
+        <div class="col">
+            <div class="block picture color-w picture1">
+                <div class="words">
+                    <div class="title">Safety Focus</div>
+                    <div class="story">Further your learning</div>
+                    <div class="action">
+                        <span class="btn">Let'go</span>
+                    </div>
+                </div>
+            </div>
+            <div class="block text">
+                <div class="words">
+                    <div class="title">Freediving</div>
+                    <div class="story">Further your learning</div>
+                    <div class="action">
+                        <span class="btn">Let'go</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="block text">
+                <div class="words">
+                    <div class="title">Photography</div>
+                    <div class="story">Further your learning</div>
+                    <div class="action">
+                        <span class="btn">Let'go</span>
+                    </div>
+                </div>
+            </div>
+            <div class="block picture color-w picture2">
+                <div class="words">
+                    <div class="title">Discovery</div>
+                    <div class="story">Further your learning</div>
+                    <div class="action">
+                        <span class="btn">Let'go</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <div class="main">
+       <!--A段-->
+        <div class="content">
+            <div onmouseover="overImage3();" onmouseout="outImage3();" class="row left picture3"></div>
+            <div class="block row right text">
+                <div class="word">
+                    <div class="title">Diving trips in Kenting</div>
+                    <div class="story">
+                        Kenting is the most convenient
+                        diving area in Taiwan. You can enjoy both shore
+                        dives and boat dives in just 2 days! 
+                    </div>
+                </div>
+                <hr> 
+                <div class="number">48 view <span>Write on comment</span></div>
+            </div>
+        </div>
+        <!--B段-->
+        <div class="content">
+            <div onmouseover="overImage4();" onmouseout="outImage4();" class="row left picture4"></div>
+            <div class="block row right text">
+                <div class="word">
+                    <div class="title">Diving trips in Kenting</div>
+                    <div class="story">
+                        Kenting is the most convenient
+                        diving area in Taiwan. You can enjoy both shore
+                        dives and boat dives in just 2 days! 
+                    </div>
+                </div>
+                <hr> 
+                <div class="number">48 view <span>Write on comment</span></div>
+            </div>
+        </div>
+   </div>
+   <footer>
+        <div class="footertext">Copyright © 2020 diver website  Inc. All rights reserved</div>
+   </footer>
+   <script src="main.js"></script>
+
+</body>
+</html>
