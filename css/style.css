@@ -8,7 +8,7 @@
 }
 nav{
     height: 900px;
-    background-image:url(/images/bg.jpg);
+    background-image:url(../images/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -91,11 +91,11 @@ section.gallery>.col>.picture{
     text-align: center;
 }
 section.gallery>.col>.picture1{
-    background-image: url(/images/picture1.jpg);
+    background-image: url(../images/picture1.jpg);
     background-size: cover;
 }
 section.gallery>.col>.picture2{
-    background-image: url(/images/picture2.jpg);
+    background-image: url(../images/picture2.jpg);
     background-size: cover;
 }
 /* section.gallery>.col>.text */
@@ -166,13 +166,13 @@ section.gallery>.col>.block>.words>.action>.btn:hover{
     border-color: rgb(121, 121, 121);
 }
 .content>.picture3{
-    background-image: url(/images/picture3.jpg);
+    background-image: url(../images/picture3.jpg);
     background-size: cover;
     opacity: 75%;
     transition: opacity 0.5s;
 }
 .content>.picture4{
-    background-image: url(/images/picture4.jpg);
+    background-image: url(../images/picture4.jpg);
     background-size: cover;
     opacity: 75%;
     transition: opacity .3s 
